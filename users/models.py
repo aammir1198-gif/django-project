@@ -1,6 +1,6 @@
 from django.db import models
 
-class user_info(models.Model):
+class UserInfo(models.Model):
 
     full_name = models.CharField(max_length=30)
 
